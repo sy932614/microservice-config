@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: microservice-config-client
+
+server:
+  port: 8881
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka01:7001/eureka/
